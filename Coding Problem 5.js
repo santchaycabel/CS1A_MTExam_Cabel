@@ -1,9 +1,9 @@
 // Create an array to store colors
-let colorPreferences = [];
+let colors = []; 
 
 // Loop to collect 3 color inputs
 for (let i = 0; i < 3; i++) {
-    let color = prompt(Enter color ${i + 1}:); 
-    colorPreferences.push(color);
-    console.log(Updated list of colors: ${colorPreferences.join(", ")});
+    let threecolor = prompt("Enter color:"); // Corrected prompt syntax and changed variable name
+    colors.push(threecolor); 
+    console.log("Updated list of colors: " + colors); 
 }
