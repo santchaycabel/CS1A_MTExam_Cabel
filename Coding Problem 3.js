@@ -7,8 +7,6 @@
 // Senior (over 60 years)
 let age = prompt("Please enter your age:");
 
-let ageCategory;
-
 if (age < 5) {
   ageCategory = "Toddler";
 } else if (age >= 5 && age <= 12) {
@@ -23,7 +21,7 @@ if (age < 5) {
   ageCategory = "Senior";
 }
 
-console.log(You are categorized as a ${ageCategory}.);
+console.log("You are categorized as a" + ageCategory + ".");
 
 
 
