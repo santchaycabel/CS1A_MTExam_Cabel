@@ -29,7 +29,7 @@ if (choice === "A") {
 
 } else if (choice === "D") {  
     alert("DSA Students: " + DSA + "\nWebDev Students: " + WebDev);  
-    alert("Program terminated.");  
+    alert("Program returned.");  
     break;  
 
 } else {  
